@@ -1,0 +1,22 @@
+# Marks Calculator
+ 
+
+## Description 
+A beginner Python project that calculates the total marks and percentage of the user based on marks entered by them. 
+
+
+## Features
+- Takes marks as input from user 
+- Calculates total marks obtained 
+- Calculates percentage 
+
+## Concepts Used
+- User input 
+- Variable
+- Float function 
+- Arithmetic operations 
+- Output using print 
+
+
+## Author 
+Madhav Sharma 

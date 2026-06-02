@@ -1,0 +1,8 @@
+
+num1= input("Maths marks:")
+num2= input("English Marks:")
+num3= input("Science Marks:")
+Total_Marks = float(num1) +float(num2) + float(num3)
+print("Congrats ! You scored " + str(Total_Marks)+ " out of 300")
+percentage = Total_Marks/3
+print("Percentage:",percentage)
