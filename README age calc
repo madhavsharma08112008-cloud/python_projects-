@@ -1,0 +1,16 @@
+#AGE CALCULATOR
+A beginner Python project that determines the user's age with the data input by the user in years,months and days.
+
+## Features
+-calculates age in years , months and days.
+-determines whether the user is an (18+) adult or minor.
+
+##Skills used 
+- input and output 
+- variable
+- integer converison using str
+- use of if/else
+- basic data calculations
+
+## Author
+MADHAV SHARMA
