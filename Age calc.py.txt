@@ -1,0 +1,22 @@
+birth_year = input("Enter your birth year: ")
+current_year = input("Enter your current year: ")
+birth_month = input("Enter your birth month: ")
+current_month = input("Enter your current month: ")
+birth_date = input("Enter your birth date: ")
+current_date = input("Enter your current date: ")
+
+years = int(current_year) - int(birth_year)
+months = int(current_month) - int(birth_month)
+date = int(current_date) - int(birth_date)
+if date< 0:
+    months = months - 1
+    date = date + 30
+if months < 0:
+    years = years - 1
+    months = months + 12
+
+print("You are " + str(years) + " years, " + str(months) +" months and " + str(date) +" days old.")
+if years >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
